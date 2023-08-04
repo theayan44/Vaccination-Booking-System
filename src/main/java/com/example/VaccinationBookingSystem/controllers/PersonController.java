@@ -17,7 +17,7 @@ import java.util.List;
 @RequestMapping("/person")
 public class PersonController {
     @Autowired
-    PersonService personService; //hello check
+    PersonService personService;
 
     @PostMapping("/add-person")
     public ResponseEntity addPerson(@RequestBody AddPersonRequestDto addPersonRequestDto){
